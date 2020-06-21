@@ -1,0 +1,23 @@
+.main-todo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  color: white;
+  margin: 0 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.table {
+  width: 900px !important;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
